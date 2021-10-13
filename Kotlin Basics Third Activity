@@ -1,0 +1,13 @@
+fun main() {
+    val border = "`-._,-'"
+    val timesTorepeat = 4
+    printBorder(border,timesTorepeat)
+    println("Happy Birthday, Jhansi!")
+    printBorder(border,timesTorepeat)
+}
+fun printBorder(border:String, timesTorepeat:Int) {
+    repeat(timesTorepeat){
+        print(border)
+    }
+    println()
+}
